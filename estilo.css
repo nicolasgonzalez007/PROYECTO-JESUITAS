@@ -32,7 +32,7 @@ header p{
     margin-top: 20px;
     padding: 30px;
     border-radius: 15px;
-    box-shadow:  10px 10px rgba(0, 0, 0, 0.055);
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.329);
     box-sizing: border-box;
     width: 100%;
     max-width: 400px;
@@ -63,7 +63,7 @@ label {
     font-weight: bold;
 }
 
-input[type="email"], input[type="password"] {
+input[type="text"], input[type="password"] {
     display: block;
     width: 100%;
     padding: 12px;
@@ -74,7 +74,7 @@ input[type="email"], input[type="password"] {
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
-input[type="email"]:hover, input[type="password"]:hover {
+input[type="text"]:hover, input[type="password"]:hover {
     display: block;
     width: 100%;
     padding: 12px;
